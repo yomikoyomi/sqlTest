@@ -1,4 +1,5 @@
 application.properties
+bin/
 .classpath
 .mvn/
 .settings/
