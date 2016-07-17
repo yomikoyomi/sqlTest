@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	<h1>testtest</h1>
+		<div th:each="testEntity : ${messages}">
+			<div th:object="${testEntity}">
+				<p th:text="*{id}"></p>
+				<p th:text="*{value}"></p>
+			</div>
+		</div>
+	</body>
+</html>
